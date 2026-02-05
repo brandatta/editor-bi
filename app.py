@@ -38,6 +38,9 @@ def get_conn():
         charset="utf8mb4",
         cursorclass=pymysql.cursors.DictCursor,
         autocommit=False,
+        connect_timeout=10,
+        read_timeout=30,
+        write_timeout=30,
     )
 
 def quote_ident(name: str) -> str:
