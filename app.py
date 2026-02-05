@@ -7,7 +7,7 @@ import pymysql
 # CONFIG APP
 # =========================
 st.set_page_config(page_title="Editor BI", layout="wide")
-st.title("Corevn - Editor de atributos BI - Prueba de Concepto")
+st.title("Corven - Editor de atributos BI - Prueba de Concepto")
 
 # =========================
 # SECRETS
